@@ -1,0 +1,57 @@
+#Authorization {
+    position: absolute;
+    border-bottom: 3px solid black;
+    right: 15px;
+    top: -15px;
+    font-size: 24px;
+}
+#login_or_email{
+    position: absolute;
+    top: 181px;
+    right: 700px;   
+}
+#login_button{
+    position: absolute;
+    top: 250px;
+    right: 530px;   
+    width: 370px;
+    height: 36;
+    border-radius: 25px;
+}
+
+#password_autho{
+    position: absolute;
+    top: 275px;
+    right: 765px;   
+}
+#password_button{
+    position: absolute;
+    top: 350px;
+    right: 530px;   
+    width: 370px;
+    height: 36;
+    border-radius: 25px;
+}
+#circle_login{
+    position: absolute;
+    border-top: 3px solid black;
+    border-bottom: 3px solid black; 
+    border-left: 3px solid black; 
+    border-right: 3px solid black; 
+    padding: 10px; 
+    width: 448;
+    height: 345;
+    border-radius: 25px;
+    right: 480px;
+    top: 120px;  
+}
+#submit {
+    text-align: center;
+    width: 102px;
+    height: 36px;
+    position: absolute;
+    top: 420px;
+    left: 710;
+    font-size: 24;
+    border-radius: 10px;
+}

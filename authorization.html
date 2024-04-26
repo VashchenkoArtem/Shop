@@ -1,0 +1,19 @@
+{% extends "base.html" %}
+
+{% block title %}
+Authorization
+{% endblock %}
+
+{% block content %}
+    <link rel="stylesheet" href="{{url_for('authorization.static', filename = 'css/style.css')}}">
+    <form method="post">
+        <h1 id="Authorization">AUTHORIZATION</h1>
+        <h1 id="login_or_email">Login or email</h1>
+        <h1 id="password_autho">Password</h1>
+        <h1 id="circle_login"></h1>
+        <input id="login_button" type="text" name="login_or_email"></body>
+        <input id="password_button" type="text" name="password_autho"></body>
+        <button id="submit"type="submit">send</button>
+    </form>
+{% endblock %}
+    
